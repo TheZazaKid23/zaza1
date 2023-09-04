@@ -1,0 +1,327 @@
+
+@font-face {
+  font-family: mokoto;
+  src: url(MokotoDemo.ttf);
+}
+/*
+.options{
+  display: inline;
+  padding: 5px 10px;
+  position: relative;
+}
+.Learn{
+  margin: solid 3px;
+  font-size: 18px;
+  color:antiquewhite;
+}
+#MainOptions{
+  color: white;
+  position: relative;
+  
+  font-size: 32px;
+  text-align: left;
+  z-index: 5;
+  
+  
+  
+}
+body, html {
+  height: 100%;
+}
+
+.bg { 
+  /* The image used */
+  /*  background-image: url("robot.png");
+  
+  /* Full height 
+  height: 100%; 
+  
+   Center and scale the image nicely 
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.responsive {
+  width: 100%;
+  height: 100%;
+}
+#MainOptions ul{
+  padding:0;
+  margin:0;
+  list-style: none;
+}
+#MainOptions li{
+  display:inline;
+  padding:15px 15px;
+  
+  position: relative;
+  color:white;
+  text-align: center;
+}
+#MainOptions a{
+  text-decoration: none;
+  color:#000000
+}
+
+
+.MainHeading{
+  font-family: mokoto;
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  position:relative;
+  top: 30px;
+  width:100%;
+  
+  
+  
+}
+.second{
+  text-align:left;
+  position:absolute;
+  color: #ff8a9d;
+  font-family:mokoto;
+  font-size: 38px;
+  
+
+}
+
+
+
+/* Bottom left text */
+/*
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('robot.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: left ;
+  justify-content: left;
+  height: 100vh;
+  text-align: left;
+  color: white;
+  
+  text-shadow: 4px 4px 4px rgba(70, 68, 68, 0.7);
+}
+
+h1 {
+  font-size: 52px;
+  
+  align-self: left;
+  justify-self: left;
+  margin-bottom: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:green;
+  
+  
+}
+
+h2 {
+  font-size: 84px;
+  margin-top: 0;
+  font-family: "mokoto";
+  color: rgb(0, 0, 0);
+}
+
+button{
+  padding:none;
+  margin:none;
+ 
+  text-align: center;
+  align-self: center;
+  width:140px;
+  
+  
+  font-size:38px;
+  
+  border-radius: 9px;
+}
+.buttonstyle{
+  position:relative;
+  left:40px;
+  border:2px black solid;
+  font-size:38px;
+  color:white;
+  
+
+}
+.buttonstyle a{
+  color:white;
+  text-decoration: none;
+}
+.buttonstyle1{
+  position:relative;
+  left:80px;
+  border:2px black solid;
+  font-size:38px;
+  color:white;
+  
+
+}
+.buttonstyle1 a{
+  color:white;
+  text-decoration: none;
+}
+*/
+
+.container{
+  background-color:rgb(255, 255, 255);
+  width:60%;
+  height:70%;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index: -1;
+  
+}
+
+.text{
+  background:white;
+  position:absolute;
+  width:100%;
+  height: 100%;
+  background-size:cover;
+  z-index: 3;  
+}
+body{
+  background-image: url('background1.png');
+  background-size: cover;
+  padding:0;
+  margin:0;
+  
+}
+
+h1{
+  font-family:mokoto;
+  font-size: 68px;
+  position: relative;
+  top:35%;
+  text-shadow: 4px 4px 4px rgba(172, 172, 172, 0.7);
+  
+   
+}
+
+h2{
+  position: absolute;
+  top:15%;
+  font-family: sans-serif;
+  font-size:48px;
+  color:rgb(0, 0, 0);
+  text-shadow: 3px 3px 3px rgba(172,172,172,0.7);
+  
+}
+p{
+  top:30%;
+  position:relative;
+  font-family:Arial, Helvetica, sans-serif;
+  line-height: 30px;
+}
+.buttons{
+  
+    background-color:rgb(255, 255, 255);
+    width:60%;
+    height:30%;
+    position:absolute;
+    left:0;
+    bottom:0;
+    z-index: 10;
+    
+}
+.learnbutton{
+  left:0;
+  position:absolute;
+  font-size: 50px;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid black;
+ 
+  
+  color:rgb(0, 0, 0);
+  
+  margin:none;
+  border-radius:9px;
+}
+
+.expandbutton{
+  left:30%;
+  position:absolute;
+  font-size: 50px;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+  
+  color:rgb(0, 0, 0);
+  border:3px solid black;
+  text-decoration: none;
+  margin:none;
+  
+  border-radius:9px;
+  /*
+  transition: ease-out 0.3s;
+  box-shadow:inset 0 0 0 0 black;
+  outline:none; 
+  */
+  
+}
+/*
+.expandbutton:hover{
+  box-shadow: inset 50px 0 0 0 0 rgba(255, 0, 0, 0.442);
+  cursor:pointer;
+  color:rgb(255, 0, 0);
+}
+*/
+
+.learnbutton a{
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+}
+.expandbutton a{
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+}
+
+
+#father{
+  width:40%;
+  height: 100%;
+  background-color:blue;
+  position:absolute;
+  z-index: -3;
+  right:0;
+  bottom:0;
+  border:black solid 1px;
+}
+#child{
+  background-image: url('robot.png');
+  position:relative;
+  width:100%;
+  height: 100%;
+  background-size:cover;
+  z-index: 3;
+}
+.expandbutton:hover{
+  color:white;
+  background-color:black;
+ 
+}
+
+.learnbutton:hover{
+  
+  background-color:black;
+  color:white;
+}
