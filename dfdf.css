@@ -1,0 +1,12 @@
+.parent{
+  background-color:none;
+  border:3px solid rgb(0, 0, 0);
+  height:700px;
+  width:700px;
+}
+.parent:hover{
+  background-color: rgb(255, 255, 255);
+  position:absolute;
+  color: rgb(0, 0, 0);
+  align-self:auto;
+}
